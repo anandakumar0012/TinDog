@@ -1,0 +1,183 @@
+body{
+    font-family: "Montserrat";
+}
+
+#title
+{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.container-fluid
+{
+    padding: 3% 15% 7%;
+}
+
+h1
+{
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.logo h2
+{
+    font-family: "Montserrat";
+    font-size: 2rem;
+    line-height: 5%;
+    font-weight: bold;
+}
+
+.title-image
+{
+    width: 10%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;  
+}
+
+.header-image
+{
+    size: 4%;
+}
+
+.nav-link
+{
+    font-family: "Montserrat";
+    color: grey;
+    font-weight: bold;
+}
+
+.nav-link:hover
+{
+    color: white;
+}
+
+/* features*/
+
+#features
+{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    
+}
+
+.feature-box
+{
+    text-align: center;
+    padding: 2rem;
+}
+
+.feature-box p
+{
+    color: grey;
+}
+
+h3
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.icon
+{
+    padding-bottom: 1rem;
+    color: #ff3300;
+}
+
+.icon:hover
+{
+    color: #ff5050;
+}
+
+/*Testimonial section*/
+
+#testimonials
+{
+    
+    text-align: center;
+    background-color:#ff5050;
+    color: #fff;
+}
+
+.carousel-item h2
+{
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 3.5rem;
+    font-weight: bold;
+}
+
+.testimonial-image
+{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item
+{
+    padding: 7% 15%;
+}
+
+#press
+{
+    background-color:#ff5050;
+    text-align: center;
+    padding: 3%;
+}
+
+.press-logo
+{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing section */
+
+#pricing
+{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column
+{
+    padding: 3% 2%;
+}
+
+@media (max-width: 1028px)
+{
+    .title-image
+    {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+#cta
+{
+    padding: 3% 15% 7%;
+    background-color:#ff4c68;
+    text-align: center;
+    color: #fff;
+}
+
+.action h3
+{
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+#footer
+{
+    padding: 3%;
+    text-align: center;
+}
+
+.footer-icon
+{
+    margin: 0.5rem;
+}
